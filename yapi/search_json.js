@@ -1230,9 +1230,19 @@ window.ydoc_plugin_search_json = {
       "url": "/documents/CHANGELOG.html",
       "children": [
         {
-          "title": "v1.5.15",
-          "url": "/documents/CHANGELOG.html#v1.5.15",
-          "content": "v1.5.15支持通过 token 导出包含 basepath 的 json 格式接口，并整合添加 sm2tsservice 入口\n"
+          "title": "v1.7.0",
+          "url": "/documents/CHANGELOG.html#v1.7.0",
+          "content": "v1.7.0fix：修复md两个undefined以及run_auto_test中执行用例id问题 #1024\n"
+        },
+        {
+          "title": "v1.7.0-beta.1",
+          "url": "/documents/CHANGELOG.html#v1.7.0-beta.1",
+          "content": "v1.7.0-beta.1修复storage保存逻辑错误\n"
+        },
+        {
+          "title": "v1.7.0-beta.0",
+          "url": "/documents/CHANGELOG.html#v1.7.0-beta.0",
+          "content": "v1.7.0-beta.0[插件] 新增默认插件，支持通过 token 导出包含 basepath 的 json 格式接口，并整合添加 sm2tsservice 入口\n[插件] 新增默认插件，支持swagger数据同步\n修复不兼容 node7.6 bug\n"
         },
         {
           "title": "v1.5.14",
@@ -1487,9 +1497,19 @@ window.ydoc_plugin_search_json = {
       "url": "/documents/CHANGELOG.html",
       "children": [
         {
-          "title": "v1.5.15",
-          "url": "/documents/CHANGELOG.html#v1.5.15",
-          "content": "v1.5.15支持通过 token 导出包含 basepath 的 json 格式接口，并整合添加 sm2tsservice 入口\n"
+          "title": "v1.7.0",
+          "url": "/documents/CHANGELOG.html#v1.7.0",
+          "content": "v1.7.0fix：修复md两个undefined以及run_auto_test中执行用例id问题 #1024\n"
+        },
+        {
+          "title": "v1.7.0-beta.1",
+          "url": "/documents/CHANGELOG.html#v1.7.0-beta.1",
+          "content": "v1.7.0-beta.1修复storage保存逻辑错误\n"
+        },
+        {
+          "title": "v1.7.0-beta.0",
+          "url": "/documents/CHANGELOG.html#v1.7.0-beta.0",
+          "content": "v1.7.0-beta.0[插件] 新增默认插件，支持通过 token 导出包含 basepath 的 json 格式接口，并整合添加 sm2tsservice 入口\n[插件] 新增默认插件，支持swagger数据同步\n修复不兼容 node7.6 bug\n"
         },
         {
           "title": "v1.5.14",
