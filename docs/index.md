@@ -7,4 +7,4 @@
 ## 作品
 
 * [yapi](https://hellosean1025.github.io/yapi)
-* [ydoc](https://hellosean1025.github.io/yapi)
+* [ydoc](https://hellosean1025.github.io/ydoc)
