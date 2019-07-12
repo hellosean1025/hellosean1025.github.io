@@ -1,0 +1,82 @@
+/** 在这里可以自定义页面 css */
+.m-pluginbox {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 10.24rem;
+}
+.m-pluginbox-item {
+  flex-basis: 100%;
+  margin-bottom: 36px;
+  padding: 16px;
+}
+.m-pluginbox-item .title {
+  font-size: 24px;
+  color: #1890ff;
+}
+.m-pluginbox-item .desc {
+  margin-top: 16px;
+}
+.m-pluginbox-item .img {
+  margin-bottom: 8px;
+  filter: transparent;
+  transition: filter .2s;
+}
+.m-pluginbox-item .href {
+  color: #1890ff;
+  transition: color .2s;
+}
+.m-pluginbox-item .href:hover {
+  color: #004b90;
+}
+.m-pluginbox-item .href:hover .img {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  
+  filter: grayscale(100%);
+
+  filter: gray;
+}
+
+@media screen and (min-width: 600px) {
+  .m-pluginbox-item {
+    flex-basis: 50%;
+    margin-bottom: 48px;
+  }
+}
+@media screen and (min-width: 960px) {
+  .m-pluginbox-item {
+    flex-basis: 33.3%;
+    margin-bottom: 48px;
+  }
+}
+
+/* 设计规范下载板块 */
+.filebox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.filebox .item {
+  flex: 1 0 100%;
+  border-radius: 4px;
+  padding: 16px 24px;
+  margin-bottom: 32px;
+  cursor: pointer;
+  transition: all .2s;
+  box-shadow: 0 1px 2px 0 rgba(43, 59, 93, 0.29);
+}
+.filebox .item:hover {
+  box-shadow: 0 2px 4px 0 rgba(43, 59, 93, 0.29);
+}
+.filebox .title {
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 960px) {
+  .filebox .item {
+    flex: 0 1 48%;
+  }
+}
