@@ -548,6 +548,62 @@ window.ydoc_plugin_search_json = {
           "content": "本地调试 Demo首先将 YDoc 项目 clone 到本地：git clone git@github.com:YMFE/ydoc.gitcd ydoc/examples\nydoc/examples 目录下有若干 Demo，你可以进入各个 Demo 的目录中执行 YDoc build 来进行本地调试。\n\nDemo 名称\n描述\n\n\n\n\n初始化\nYDoc 一键生成文档的最简版本。\n\n\n首页使用 markdown\n默认主题的首页使用 markdown 的方式\n\n\n使用插件\nYDoc 标准插件与 markdown-it 插件的使用\n\n\n使用主题\nYDoc 使用编辑主题\n\n\n"
         }
       ]
+    },
+    {
+      "title": "初始化",
+      "content": "YDoc 一键生成文档的最简单版本。Demo 在线预览",
+      "url": "/examples/init.html",
+      "children": []
+    },
+    {
+      "title": "首页使用 markdown",
+      "content": "默认主题的首页使用的是 jsx 文件，这个文件可以替换成 markdown/html 文件。",
+      "url": "/examples/homepage.html",
+      "children": [
+        {
+          "title": "用法",
+          "url": "/examples/homepage.html#用法",
+          "content": "用法删除 examples/homepage/docs/ 目录下的 index.jsx 文件，然后在这个目录下新建 index.md 文件，随意写一些内容。然后执行：ydoc build即可看到首页已经换成了 markdown 文件中编写的内容啦，html 文件也是同理"
+        }
+      ]
+    },
+    {
+      "title": "插件",
+      "content": "YDoc 插件列表YDoc 提供了一套灵活的插件机制，除了上面插件列表里提供的插件，你还可以使用 markdown-it 的插件",
+      "url": "/examples/plugin.html",
+      "children": []
+    },
+    {
+      "title": "主题",
+      "content": "YDoc 提供了简单易用强大的自定义主题功能。",
+      "url": "/examples/theme.html",
+      "children": [
+        {
+          "title": "安装",
+          "url": "/examples/theme.html#安装",
+          "content": "安装1.假设要安装 demo 主题，请执行以下命令：npm install --save-dev ydoc-theme-demo或者ydoc theme ydoc-theme-demo2.然后在 ydoc.json 配置：{  \"theme\": \"demo\"\n}\n"
+        },
+        {
+          "title": "自定义主题",
+          "url": "/examples/theme.html#自定义主题",
+          "content": "自定义主题"
+        },
+        {
+          "title": "新建主题",
+          "url": "/examples/theme.html#自定义主题-新建主题",
+          "content": "新建主题1.在根目录下创建 theme 文件夹，然后创建对应的 theme 文件夹，比如 ydoc-theme-demo, 在文件夹下写对应的主题2.然后在 ydoc.json 配置：{  \"theme\": \"demo\"\n}\n"
+        },
+        {
+          "title": "基于已有主题定制",
+          "url": "/examples/theme.html#自定义主题-基于已有主题定制",
+          "content": "基于已有主题定制1.在项目根目录下执行以下命令：ydoc theme ydoc-theme-demo -c或者ydoc theme ydoc-theme-demo --copy命令执行完成后，项目根目录下会生成一个theme文件夹，文件夹中有一个ydoc-theme-demo的文件，ydoc-theme-demo文件中是主题的内容，修改该文件即可定制主题2.然后在 ydoc.json 配置：{  \"theme\": \"demo\"\n}\n"
+        },
+        {
+          "title": "主题列表",
+          "url": "/examples/theme.html#主题列表",
+          "content": "主题列表ydoc-theme-demo\nydoc-theme-dark\n"
+        }
+      ]
     }
   ],
   "设计规范": [
