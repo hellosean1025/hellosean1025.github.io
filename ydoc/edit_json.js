@@ -19,10 +19,6 @@ window.ydoc_plugin_edit_json = {
   "/documents/qa.html": "/documents/qa.md",
   "/documents/release.html": "/documents/release.md",
   "/examples/index.html": "/examples/index.md",
-  "/examples/init.html": "/examples/init.md",
-  "/examples/homepage.html": "/examples/homepage.md",
-  "/examples/plugin.html": "/examples/plugin.md",
-  "/examples/theme.html": "/examples/theme.md",
   "/standard/style-guide.html": "/standard/style-guide.md",
   "/standard/index.html": "/standard/index.md"
 }
