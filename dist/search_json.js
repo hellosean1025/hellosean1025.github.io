@@ -2,7 +2,7 @@ window.ydoc_plugin_search_json = {
   "sean 个人空间": [
     {
       "title": "个人介绍",
-      "content": "网名 Sean，前端工程师邮箱：hellosean1025@163.com",
+      "content": "工作状态：目前就职于美团，看机会请联系我邮箱：hellosean1025@163.com",
       "url": "/index.html",
       "children": [
         {
